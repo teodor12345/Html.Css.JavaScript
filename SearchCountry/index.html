@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+
+    <div class="container">
+
+        <span id="loading_div"></span>
+        <span id="results"></span>
+        <form id="report" name="report" action="" method="post">
+        </form>
+        <form id="getForm" class="form">
+            <input id="country-name" type="text" class="form-field">
+            <input type="submit" id="search" value="Search a country" class="btn btn-form">
+        </form>
+        <h2 id="sub-header" class="sub-header hidden">List of selected countries:</h2>
+        <table id="countries-wrapper" class="countries-wrapper" border="3px solid black">
+
+        </table>
+
+    </div>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

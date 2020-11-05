@@ -1,0 +1,85 @@
+html {
+    color:rgb(25, 180, 25);
+    font-size: 35px;
+    background-color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: crosshair;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.score {
+    background-color:rgb(25, 180, 25);
+    padding: 0 48px;
+    line-height: 1;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.game {
+    width: 900px;
+    height: 400px;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    
+}
+
+.portal{
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+}
+
+.portal:after{
+    display:block;
+    background: url(./images/5516389-rick-and-morty-png-portal-rick-and-morty-portal-png-free-rick-and-morty-portal-transparent-820_1029_preview.png) bottom center no-repeat;
+    background-size:contain;
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+}
+
+.rick {
+    background: url("./images/images.jpg") bottom center no-repeat;
+    background-size: 50%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+.portal.up .rick{
+    top: -60px;
+}
+
+button{
+    width:175px;
+    font-size: 35px;
+    height: 70px;
+    color: #fff;
+    background-color:rgb(25, 180, 25);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+
+
+
+

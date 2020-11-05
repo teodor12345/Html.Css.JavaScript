@@ -1,0 +1,69 @@
+html {
+  background-color: rgb(18, 22, 26);
+  background-attachment: fixed;
+  color:crimson;
+}
+
+body {
+  color: rgb(228, 13, 56);
+  font: 300 18px/1.6 ;
+  font-size: 130%;
+  margin: 10px;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 10px;
+}
+
+.calculator {
+  font-size: 48px;
+  margin: 0 auto;
+  width: 2em;
+ 
+
+}
+
+.viewer {
+  color:crimson;
+  float: center;
+  line-height: 2em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+
+button {
+  border: solid cornflowerblue 2px;
+  background-color: rgb(78, 10, 27);
+  color:crimson;
+  position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+  
+  float: inline-block;
+  font: inherit;
+  margin: 0.25em;
+  width: 3em;
+  height: 3em;
+  
+
+}
+
+   
+.reset {
+  background-color: rgb(78, 10, 27);
+  color:crimson;
+  font-weight: 400;
+  margin-left: 50%;
+  padding: 0.5em 1em;
+  position: absolute;
+    top: 33em;
+    left: 65px;
+  width: auto;
+  height: auto;
+}

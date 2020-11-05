@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Weather app</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1 class="navbar-brand">Weather App</h1>
+        <img src="styles.css/408376.png" style="width: 40px; height: 40px;">
+        <button type="button" onclick="show('id1');" class="btn btn-primary" id="firstone">Home Page</button>
+        <button type="button" onclick="show('id2');" class="btn btn-primary" id="second">Hourly-weather </button>
+        <button type="button" onclick="show('id3');" class="btn btn-primary">About</button>
+    </nav>
+    <div id="id1">
+        <div id="id1"><img src="styles.css/and-now-the-5cc07e.jpg" id="meme" class="meme"></div>
+        <img src="styles.css/images (1).jfif" style="width: 1535px; height: 690px;" class="imgicon">
+        <div class="centered" id="first"><b>Welcome to the Weather App</b></div>
+        <div class="centered01">
+            <p><b>Anchorman Ron Burgundy:</b></p>
+            <p class="p">Now that you know that,continue to the Home Page</p>
+            </div>
+        <h1 class="name" ></h1>
+            <p class="temp"></p>   
+            <p class="temphigh"></p>
+            <p class="templow"></p>
+            <p class="averagehumidity"></p>
+            <p class="lowesthumidity"></p>
+            <p class="highesthumidity"></p>
+            <p class="warmestday"></p>
+            <p class="coldestday"></p>
+    </div>
+    <div id="id2" class="hidden"><img src="styles.css/images (1).jfif" style="width: 1535px; height: 689px;"
+            class="imgicon">
+        <h1 class="nametwo">Hourly weather in Skopje, MK </h1>
+        <table class="hourlyweather" border="3px solid black" id="tablee">
+        </table>
+    </div>
+    <div id="id3" class="hidden">
+        <img src="styles.css/images (1).jfif" style="width: 1535px; height: 689px;" class="imgicon">
+        <p class="about">Who we are
+            Openweather is a small IT company, established in 2014 by a group of engineers and experts in Big Data, data
+            processing, and satellite imagery processing. Our headquarters is in the UK, we have an office in the US,
+            and the development team in Latvia (EU).
+            What we do
+            We do very simple and fast APIs to work with our vast database of weather data, satellite imagery and other
+            environmental data. We have 3 products - API to weather data, API to satellite imagery, and API to machine
+            learning (R&D).
+            Who our customers are
+            1.6 million developers work with our APIs, from individuals and small businesses to enterprises. We are
+            processing 100,000 calls per sec.</p>
+        <img src="styles.css/preview2.jpg" class="ceo">
+        <p class="contact">Contact information
+            Official site of our company:
+             https://openweather.co.uk
+            Please contact us info@openweathermap.org
+            Openweather Ltd.
+        </p> 
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
